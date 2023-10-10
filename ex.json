@@ -1,0 +1,8 @@
+{
+    "an_integer": 5,
+    "a_string": "but data this time!",
+    "a_list": [1, 2, 3, 4, 5],
+    "a_nested_obj": {
+        "a_string": "recursive!"
+    }
+}
