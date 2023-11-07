@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    color: lime;
+    display: flex;
+
+    /* Center the content in the body */
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: x-large;
+    text-decoration: underline;
+}

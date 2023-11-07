@@ -1,0 +1,9 @@
+name, type, avg_distance_from_sun_km, num_moons, earth_mass
+Mercury, Terrestrial, 67e6, 0, 0.0553
+Venus, Terrestrial, 108e6, 0, 0.815
+Earth, Terrestrial, 150e6, 1, 1
+Mars, Terrestrial, 228e6, 2, 0.107
+Jupiter, Jovian, 778.5e6, 67, 317.8
+Saturn, Jovian, 1432.5e6, 62, 95.2
+Uranus, Jovian, 2867e6, 27, 14.5
+Neptune, Jovian, 4514.5e6, 13, 17.1

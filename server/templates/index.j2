@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="test app" />
+    <title>{{ doctitle or "Test App" }}</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}" />
+</head>
+
+<body>
+    <h1>Hello, world!</h1>
+    {% if my_var %}
+    <p>You passed in {{ my_var }}</p>
+    {% else %}
+    <p>You did not pass in a variable</p>
+    <p>Previous value of input was {{ session.my_var or "None" }}</p>
+    {% endif %}
+</body>
+
+</html>
