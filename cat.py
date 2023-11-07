@@ -13,7 +13,7 @@ s = input("Enter a prompt: ")
 """Popen.communicate will send our input string
 (as bytes) to the process, followed by EOF. It
 then waits for the subprocess to exit, and
-returns a tupe containing (stdout, stderr) from
+returns a tuple containing (stdout, stderr) from
 the process, also as bytes.
 """
 # This is a BLOCKING CALL!!!
