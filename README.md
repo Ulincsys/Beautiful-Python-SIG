@@ -23,4 +23,6 @@ pip install flask
 ./run_flask.sh
 ```
 
+[Instructions](dynamic_lib.md) for the dynamic library example in `dynamic_lib.py`:
+
 Have fun!
