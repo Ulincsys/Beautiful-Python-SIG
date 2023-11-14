@@ -15,3 +15,16 @@ for index, element in enumerate(l):
 
 l = [x * 2 for x in l]
 
+l = list(map(lambda x: x * 2), l)
+
+def really_long_function(
+        index, list, count, four, five,
+        columbia, chair, computer, table):
+    pass
+
+d = {
+    "one_key": 5,
+    "another": [
+        
+    ]
+}
